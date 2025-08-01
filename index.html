@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inzopay - Transform Your Digital Payment Experience</title>
+    <meta name="description" content="Advanced electronic payment services for companies, online stores, and individuals. Secure, fast, and globally accessible.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/rtl.css">
+</head>
+<body>
+    <!-- Language Toggle -->
+    <div class="language-toggle">
+        <button id="langToggle" class="lang-btn">
+            <i data-lucide="globe"></i>
+            <span>العربية</span>
+        </button>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="logo-container">
+                    <div class="logo-icon">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <span class="logo-text">Inzopay</span>
+                </div>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#features" class="nav-link" data-en="Features" data-ar="المميزات">Features</a>
+                <a href="#process" class="nav-link" data-en="How It Works" data-ar="كيف يعمل">How It Works</a>
+                <a href="#testimonials" class="nav-link" data-en="Reviews" data-ar="التقييمات">Reviews</a>
+                <a href="#contact" class="nav-link" data-en="Contact" data-ar="اتصل بنا">Contact</a>
+                <a href="https://inzopay.com/auth/sginup" class="nav-cta" data-en="Start Free Trial" data-ar="ابدأ النسخة المجانية">Start Free Trial</a>
+            </div>
+            
+            <div class="nav-toggle" id="navToggle">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-effects">
+            <div class="grid-overlay"></div>
+            <div class="glow-orb glow-orb-1"></div>
+            <div class="glow-orb glow-orb-2"></div>
+            <div class="floating-particles"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text fade-in-up">
+                    <h1 class="hero-title">
+                        <span class="title-line" data-en="Transform Your Digital" data-ar="حوّل أفكارك الرقمية">Transform Your Digital</span>
+                        <span class="title-line highlight" data-en="Payment Experience" data-ar="إلى واقع ملهم">Payment Experience</span>
+                    </h1>
+                    
+                    <p class="hero-subtitle" data-en="Get ready to transform your ideas into digital reality and embody your aspirations in our advanced digital world. Secure, fast, and globally accessible payment solutions." data-ar="استعد لتحويل أفكارك إلى واقع رقمي وتجسيد طموحاتك في عالمنا الرقمي المتقدم. حلول دفع آمنة وسريعة ومتاحة عالمياً.">
+                        Get ready to transform your ideas into digital reality and embody your aspirations in our advanced digital world. Secure, fast, and globally accessible payment solutions.
+                    </p>
+                    
+                    <div class="hero-cta">
+                        <a href="https://inzopay.com/auth/sginup" class="cta-button glow-button">
+                            <span data-en="Try FREE for 14 days" data-ar="جرب مجاناً لمدة 14 يوم">Try FREE for 14 days</span>
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                        <p class="cta-note" data-en="No credit card required" data-ar="لا حاجة لبطاقة ائتمان">No credit card required</p>
+                    </div>
+                </div>
+                
+                <div class="hero-visual fade-in-left">
+                    <div class="dashboard-mockup">
+                        <div class="mockup-header">
+                            <div class="mockup-dots">
+                                <span></span><span></span><span></span>
+                            </div>
+                        </div>
+                        <div class="mockup-content">
+                            <div class="stat-card">
+                                <div class="stat-icon"><i data-lucide="trending-up"></i></div>
+                                <div class="stat-text">
+                                    <span class="stat-number">40,000+</span>
+                                    <span class="stat-label" data-en="Happy Users" data-ar="مستخدم سعيد">Happy Users</span>
+                                </div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-icon"><i data-lucide="package"></i></div>
+                                <div class="stat-text">
+                                    <span class="stat-number">160,000+</span>
+                                    <span class="stat-label" data-en="Products Created" data-ar="منتج تم إنشاؤه">Products Created</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 class="section-title" data-en="Expand Your Reach and Profits Globally" data-ar="وسع نطاق وصولك وأرباحك عالمياً">Expand Your Reach and Profits Globally</h2>
+                <p class="section-subtitle" data-en="The Advantages of Offering Digital Products for Sale Online" data-ar="مميزات عرض المنتجات الرقمية للبيع عبر الإنترنت">The Advantages of Offering Digital Products for Sale Online</p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card fade-in-up" data-delay="100">
+                    <div class="feature-icon">
+                        <i data-lucide="globe"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Global Reach" data-ar="وصول عالمي">Global Reach</h3>
+                    <p class="feature-description" data-en="Sell worldwide without inventory or shipping constraints." data-ar="بع في جميع أنحاء العالم دون قيود المخزون أو الشحن.">Sell worldwide without inventory or shipping constraints.</p>
+                </div>
+                
+                <div class="feature-card fade-in-up" data-delay="200">
+                    <div class="feature-icon">
+                        <i data-lucide="dollar-sign"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Low Setup Costs" data-ar="تكاليف إعداد منخفضة">Low Setup Costs</h3>
+                    <p class="feature-description" data-en="No physical inventory means lower startup and ongoing costs." data-ar="عدم وجود مخزون مادي يعني تكاليف بدء تشغيل ومستمرة أقل.">No physical inventory means lower startup and ongoing costs.</p>
+                </div>
+                
+                <div class="feature-card fade-in-up" data-delay="300">
+                    <div class="feature-icon">
+                        <i data-lucide="repeat"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Recurring Revenue" data-ar="إيرادات متكررة">Recurring Revenue</h3>
+                    <p class="feature-description" data-en="Sell memberships, subscriptions and access to generate continuous income." data-ar="بع العضويات والاشتراكات والوصول لتوليد دخل مستمر.">Sell memberships, subscriptions and access to generate continuous income.</p>
+                </div>
+                
+                <div class="feature-card fade-in-up" data-delay="400">
+                    <div class="feature-icon">
+                        <i data-lucide="trending-up"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Scalable Sales" data-ar="مبيعات قابلة للتطوير">Scalable Sales</h3>
+                    <p class="feature-description" data-en="High margins and ability to sell unlimited quantities without incremental costs." data-ar="هوامش عالية وقدرة على بيع كميات غير محدودة دون تكاليف إضافية.">High margins and ability to sell unlimited quantities without incremental costs.</p>
+                </div>
+                
+                <div class="feature-card fade-in-up" data-delay="500">
+                    <div class="feature-icon">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Instant Delivery" data-ar="تسليم فوري">Instant Delivery</h3>
+                    <p class="feature-description" data-en="Customers receive products digitally right away with no waiting." data-ar="يتلقى العملاء المنتجات رقمياً على الفور دون انتظار.">Customers receive products digitally right away with no waiting.</p>
+                </div>
+                
+                <div class="feature-card fade-in-up" data-delay="600">
+                    <div class="feature-icon">
+                        <i data-lucide="smile"></i>
+                    </div>
+                    <h3 class="feature-title" data-en="Customer Satisfaction" data-ar="رضا العملاء">Customer Satisfaction</h3>
+                    <p class="feature-description" data-en="Convenient access anywhere meets customer demand for instant gratification." data-ar="وصول مريح في أي مكان يلبي طلب العملاء للإشباع الفوري.">Convenient access anywhere meets customer demand for instant gratification.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process" id="process">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 class="section-title" data-en="How It Works" data-ar="كيف يعمل">How It Works</h2>
+                <p class="section-subtitle" data-en="Simple steps to get started with your digital payment journey" data-ar="خطوات بسيطة للبدء في رحلة الدفع الرقمي">Simple steps to get started with your digital payment journey</p>
+            </div>
+            
+            <div class="process-slider" id="processSlider">
+                <div class="process-step active" data-step="1">
+                    <div class="step-visual">
+                        <div class="step-icon">
+                            <i data-lucide="user-plus"></i>
+                        </div>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-en="Sign Up & Setup" data-ar="التسجيل والإعداد">Sign Up & Setup</h3>
+                        <p class="step-description" data-en="Create your account and set up your payment preferences in under 2 minutes." data-ar="أنشئ حسابك وحدد تفضيلات الدفع في أقل من دقيقتين.">Create your account and set up your payment preferences in under 2 minutes.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-step="2">
+                    <div class="step-visual">
+                        <div class="step-icon">
+                            <i data-lucide="settings"></i>
+                        </div>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-en="Configure Products" data-ar="تكوين المنتجات">Configure Products</h3>
+                        <p class="step-description" data-en="Add your digital products and configure pricing, delivery, and access controls." data-ar="أضف منتجاتك الرقمية وحدد الأسعار والتسليم وضوابط الوصول.">Add your digital products and configure pricing, delivery, and access controls.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-step="3">
+                    <div class="step-visual">
+                        <div class="step-icon">
+                            <i data-lucide="credit-card"></i>
+                        </div>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-en="Start Selling" data-ar="ابدأ البيع">Start Selling</h3>
+                        <p class="step-description" data-en="Launch your payment pages and start receiving payments from customers worldwide." data-ar="أطلق صفحات الدفع وابدأ في تلقي المدفوعات من العملاء حول العالم.">Launch your payment pages and start receiving payments from customers worldwide.</p>
+                    </div>
+                </div>
+                
+                <div class="process-step" data-step="4">
+                    <div class="step-visual">
+                        <div class="step-icon">
+                            <i data-lucide="bar-chart-3"></i>
+                        </div>
+                    </div>
+                    <div class="step-content">
+                        <h3 class="step-title" data-en="Track & Optimize" data-ar="تتبع وحسّن">Track & Optimize</h3>
+                        <p class="step-description" data-en="Monitor your sales analytics and optimize your strategy for maximum revenue." data-ar="راقب تحليلات مبيعاتك وحسّن استراتيجيتك لتحقيق أقصى إيرادات.">Monitor your sales analytics and optimize your strategy for maximum revenue.</p>
+                    </div>
+                </div>
+                
+                <div class="process-navigation">
+                    <button class="nav-btn prev-btn" id="prevBtn">
+                        <i data-lucide="chevron-left"></i>
+                    </button>
+                    <div class="step-indicators">
+                        <span class="indicator active" data-step="1"></span>
+                        <span class="indicator" data-step="2"></span>
+                        <span class="indicator" data-step="3"></span>
+                        <span class="indicator" data-step="4"></span>
+                    </div>
+                    <button class="nav-btn next-btn" id="nextBtn">
+                        <i data-lucide="chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 class="section-title" data-en="One Service to Meet All Needs" data-ar="خدمة واحدة لتلبية جميع الاحتياجات">One Service to Meet All Needs</h2>
+                <p class="section-subtitle" data-en="Comprehensive solutions for creative people and businesses of all sizes" data-ar="حلول شاملة للأشخاص المبدعين والشركات من جميع الأحجام">Comprehensive solutions for creative people and businesses of all sizes</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card fade-in-up" data-delay="100">
+                    <div class="service-icon">
+                        <i data-lucide="shopping-cart"></i>
+                    </div>
+                    <h3 class="service-title" data-en="Optimized Checkout" data-ar="دفع محسن">Optimized Checkout</h3>
+                    <p class="service-description" data-en="Choose the optimal design for your payment page, whether simple or fully detailed" data-ar="اختر التصميم الأمثل لصفحة الدفع، سواء كان بسيطاً أو مفصلاً بالكامل">Choose the optimal design for your payment page, whether simple or fully detailed</p>
+                </div>
+                
+                <div class="service-card fade-in-up" data-delay="200">
+                    <div class="service-icon">
+                        <i data-lucide="credit-card"></i>
+                    </div>
+                    <h3 class="service-title" data-en="Payment Integration" data-ar="تكامل الدفع">Payment Integration</h3>
+                    <p class="service-description" data-en="Integrate with many payment gateways to facilitate your payment process with ease" data-ar="تكامل مع العديد من بوابات الدفع لتسهيل عملية الدفع بسهولة">Integrate with many payment gateways to facilitate your payment process with ease</p>
+                </div>
+                
+                <div class="service-card fade-in-up" data-delay="300">
+                    <div class="service-icon">
+                        <i data-lucide="truck"></i>
+                    </div>
+                    <h3 class="service-title" data-en="Automated Delivery" data-ar="تسليم آلي">Automated Delivery</h3>
+                    <p class="service-description" data-en="Protect products with automated delivery systems with encrypted tracking and authentication" data-ar="احم المنتجات بأنظمة التسليم الآلي مع التتبع المشفر والمصادقة">Protect products with automated delivery systems with encrypted tracking and authentication</p>
+                </div>
+                
+                <div class="service-card fade-in-up" data-delay="400">
+                    <div class="service-icon">
+                        <i data-lucide="shield"></i>
+                    </div>
+                    <h3 class="service-title" data-en="Secure Platform" data-ar="منصة آمنة">Secure Platform</h3>
+                    <p class="service-description" data-en="Process transactions securely, protecting customer data with advanced encryption" data-ar="معالجة المعاملات بأمان، حماية بيانات العملاء بالتشفير المتقدم">Process transactions securely, protecting customer data with advanced encryption</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header fade-in-up">
+                <h2 class="section-title" data-en="What Our Customers Say" data-ar="ماذا يقول عملاؤنا">What Our Customers Say</h2>
+                <p class="section-subtitle" data-en="Real experiences from businesses using Inzopay" data-ar="تجارب حقيقية من الشركات التي تستخدم إنزوباي">Real experiences from businesses using Inzopay</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in-up" data-delay="100">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                        </div>
+                        <p class="testimonial-text" data-en="Inzopay has revolutionized our digital product sales. The automated delivery and analytics are game-changers." data-ar="لقد أحدث إنزوباي ثورة في مبيعات منتجاتنا الرقمية. التسليم الآلي والتحليلات غيّرا قواعد اللعبة.">Inzopay has revolutionized our digital product sales. The automated delivery and analytics are game-changers.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i data-lucide="user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name" data-en="Sarah Johnson" data-ar="سارة جونسون">Sarah Johnson</h4>
+                            <p class="author-title" data-en="E-commerce Entrepreneur" data-ar="رائدة أعمال التجارة الإلكترونية">E-commerce Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in-up" data-delay="200">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                        </div>
+                        <p class="testimonial-text" data-en="The seamless integration with existing payment systems saved us months of development. Highly recommended!" data-ar="التكامل السلس مع أنظمة الدفع الموجودة وفر علينا شهوراً من التطوير. أنصح به بشدة!">The seamless integration with existing payment systems saved us months of development. Highly recommended!</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i data-lucide="user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name" data-en="Ahmed Al-Rashid" data-ar="أحمد الراشد">Ahmed Al-Rashid</h4>
+                            <p class="author-title" data-en="Tech Startup Founder" data-ar="مؤسس شركة تقنية ناشئة">Tech Startup Founder</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card fade-in-up" data-delay="300">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                            <i data-lucide="star" class="star-filled"></i>
+                        </div>
+                        <p class="testimonial-text" data-en="Outstanding customer support and robust security features. Our sales have increased by 300% since switching." data-ar="دعم عملاء متميز ومميزات أمان قوية. زادت مبيعاتنا بنسبة 300% منذ التحويل.">Outstanding customer support and robust security features. Our sales have increased by 300% since switching.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i data-lucide="user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4 class="author-name" data-en="Maria Rodriguez" data-ar="ماريا رودريغيز">Maria Rodriguez</h4>
+                            <p class="author-title" data-en="Digital Marketing Agency" data-ar="وكالة التسويق الرقمي">Digital Marketing Agency</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content fade-in-up">
+                <h2 class="cta-title" data-en="Start Your 14 Day Free Trial" data-ar="ابدأ نسختك المجانية لمدة 14 يوم">Start Your 14 Day Free Trial</h2>
+                <p class="cta-subtitle" data-en="All the benefits you need to grow your revenue" data-ar="جميع المزايا التي تحتاجها لزيادة إيراداتك">All the benefits you need to grow your revenue</p>
+                <a href="https://inzopay.com/auth/sginup" class="cta-button glow-button">
+                    <span data-en="Start Free Trial" data-ar="ابدأ النسخة المجانية">Start Free Trial</span>
+                    <i data-lucide="arrow-right"></i>
+                </a>
+                <p class="cta-note" data-en="No credit card required – Complete Registration in under 2 minutes." data-ar="لا حاجة لبطاقة ائتمان – أكمل التسجيل في أقل من دقيقتين.">No credit card required – Complete Registration in under 2 minutes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo-container">
+                        <div class="logo-icon">
+                            <i data-lucide="zap"></i>
+                        </div>
+                        <span class="logo-text">Inzopay</span>
+                    </div>
+                    <p class="footer-description" data-en="Transform your digital payment experience with secure, fast, and globally accessible solutions." data-ar="حوّل تجربة الدفع الرقمي مع حلول آمنة وسريعة ومتاحة عالمياً.">Transform your digital payment experience with secure, fast, and globally accessible solutions.</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4 class="footer-title" data-en="Product" data-ar="المنتج">Product</h4>
+                        <a href="#features" class="footer-link" data-en="Features" data-ar="المميزات">Features</a>
+                        <a href="#process" class="footer-link" data-en="How It Works" data-ar="كيف يعمل">How It Works</a>
+                        <a href="https://inzopay.com/auth/sginup" class="footer-link" data-en="Pricing" data-ar="الأسعار">Pricing</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4 class="footer-title" data-en="Support" data-ar="الدعم">Support</h4>
+                        <a href="#" class="footer-link" data-en="Documentation" data-ar="التوثيق">Documentation</a>
+                        <a href="#" class="footer-link" data-en="Help Center" data-ar="مركز المساعدة">Help Center</a>
+                        <a href="#contact" class="footer-link" data-en="Contact Us" data-ar="اتصل بنا">Contact Us</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4 class="footer-title" data-en="Connect" data-ar="تواصل">Connect</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <i data-lucide="twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <i data-lucide="linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="GitHub">
+                                <i data-lucide="github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright" data-en="© 2025 Inzopay. All rights reserved." data-ar="© 2025 إنزوباي. جميع الحقوق محفوظة.">© 2025 Inzopay. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/scroll-animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
